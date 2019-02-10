@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="ProcessGuard.exe"/>
+    <OBJFILES value="ProcessGuard.obj fpguard.obj piduti.obj"/>
+    <RESFILES value="ProcessGuard.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) fpguard.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi bcb2kaxserver.bpi visualclx.bpi vclx.bpi vclie.bpi 
+      bcbie.bpi inet.bpi inetdb.bpi dbrtl.bpi bdertl.bpi vcldb.bpi vcldbx.bpi 
+      adortl.bpi bcbsmp.bpi bdecds.bpi dsnap.bpi cds.bpi dbexpress.bpi 
+      dbxcds.bpi dss.bpi teeui.bpi teedb.bpi tee.bpi ibxpress.bpi indy.bpi 
+      dsnapcrba.bpi dsnapcon.bpi xmlrtl.bpi inetdbbde.bpi inetdbxpress.bpi 
+      nmfast.bpi dclocx.bpi qrpt.bpi soaprtl.bpi teeqr.bpi webdsnap.bpi 
+      websnap.bpi XML3.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="ProcessGuard.cpp"/>
+    <INCLUDEPATH value="P:\TTDWIN\PROJET\CLIENTS\CIC\PROJET\purges;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="P:\TTDWIN\PROJET\CLIENTS\CIC\PROJET\purges;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-Od -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 -b- -k -y -v -vi- -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$YD -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ProcessGuard.res" FORMNAME="" UNITNAME="ProcessGuard.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ProcessGuard.cpp" FORMNAME="" UNITNAME="ProcessGuard" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fpguard.cpp" FORMNAME="ProcessGuardService" UNITNAME="fpguard" CONTAINERID="CCompiler" DESIGNCLASS="TService" LOCALCOMMAND=""/>
+      <FILE FILENAME="piduti.cpp" FORMNAME="" UNITNAME="piduti" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=1
+MinorVer=0
+Release=0
+Build=0
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1036
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=1.0.0.0
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[Excluded Packages]
+C:\bcb6\Bin\visualclx60.bpl=Borland Visual Component Library
+C:\bcb6\Bin\vclie60.bpl=Internet Explorer Components Runtime Package
+C:\bcb6\Bin\inet60.bpl=Borland Internet/World Wide Web components
+C:\bcb6\Bin\inetdb60.bpl=Borland Internet/World Wide Web database components
+C:\bcb6\Bin\dbrtl60.bpl=Borland Core Database Components
+C:\bcb6\Bin\vcldb60.bpl=Borland Database Components
+C:\bcb6\Bin\vcldbx60.bpl=Borland Compatibility Database Components
+C:\bcb6\Bin\dsnap60.bpl=Borland DataSnap Components
+C:\bcb6\Bin\teeui60.bpl=TeeChart UI Components
+C:\bcb6\Bin\teedb60.bpl=TeeChart Database Components
+C:\bcb6\Bin\tee60.bpl=TeeChart Components
+C:\bcb6\Bin\dss60.bpl=Borland Decision Cube Components
+C:\bcb6\Bin\ibxpress60.bpl=InterBase Data Access Components
+C:\bcb6\Bin\indy60.bpl=Internet Direct (Indy) for D6
+C:\bcb6\Bin\dsnapcrba60.bpl=Borland DataSnap CORBA Connection Components
+C:\bcb6\Bin\dsnapcon60.bpl=Borland DataSnap Connection Components
+C:\bcb6\Bin\inetdbxpress60.bpl=(untitled)
+C:\bcb6\Bin\nmfast60.bpl=NetMasters Fastnet Tools Runtime Package
+C:\bcb6\Bin\qrpt60.bpl=QuickReport Runtime Package
+C:\bcb6\Bin\soaprtl60.bpl=Borland SOAP Runtime Package
+C:\bcb6\Bin\teeqr60.bpl=TeeChart for QuickReport Components
+C:\bcb6\Bin\webdsnap60.bpl=Borland InternetExpress Components
+C:\bcb6\Bin\websnap61.bpl=Borland WebSnap Components
+C:\bcb6\Bin\dclclxstd60.bpl=Borland CLX Standard Components
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=-run
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

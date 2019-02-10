@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2019/02/10 19:27:46.000.719,=C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Unit3.cpp</Transaction>
+    <Transaction>2019/02/10 19:27:46.000.656,=C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Project2PCH1.h</Transaction>
+    <Transaction>2019/02/10 19:28:09.000.296,C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Unit3.h=T:\claudio\develop\claudio\processguardsrc\Unit3.h</Transaction>
+    <Transaction>2019/02/10 19:28:09.000.296,C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Unit3.cpp=T:\claudio\develop\claudio\processguardsrc\Unit3.cpp</Transaction>
+    <Transaction>2019/02/10 19:28:09.000.296,C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Unit3.dfm=T:\claudio\develop\claudio\processguardsrc\Unit3.dfm</Transaction>
+    <Transaction>2019/02/10 19:28:31.000.848,C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Project2PCH1.h=T:\claudio\develop\claudio\processguardsrc\ProcessGuardPCH1.h</Transaction>
+    <Transaction>2019/02/10 19:28:38.000.214,C:\Users\claudio\Documents\Embarcadero\Studio\Projets\Project2.cbproj=T:\claudio\develop\claudio\processguardsrc\ProcessGuard.cbproj</Transaction>
+    <Transaction>2019/02/10 19:29:04.000.411,=T:\claudio\develop\claudio\processguardsrc\fpguard.cpp</Transaction>
+    <Transaction>2019/02/10 19:29:04.000.460,=T:\claudio\develop\claudio\processguardsrc\piduti.cpp</Transaction>
+    <Transaction>2019/02/10 19:30:02.000.371,T:\claudio\develop\claudio\processguardsrc\Unit3.cpp=</Transaction>
+  </Transactions>
+</BorlandProject>
